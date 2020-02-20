@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: inherit;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+	color: #333;
+}
+
+html {
+}
+
+body {
+	box-sizing: border-box;
+	font-family: Open Sans, Helvetica, Arial, Hiragino Sans GB, Microsoft YaHei,
+		WenQuanYi Micro Hei, sans-serif;
+	font-size: 100%;
+	line-height: 1.4;
+	color: #333;
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	width: 100%;
+}
+h1 {
+	font-size: 1.875em;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+h2 {
+	font-size: 1.625em;
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+.btn {
+	border-radius: 0;
+}
+.ql-editor {
+	min-height: 300px;
+}
+.ql-align-center {
+	text-align: center;
+}
+.ql-snow {
+	background-color: #fff;
+}
+.MuiTabs-indicator {
+	background-color: #207abd !important;
+}
+.Mui-selected:focus {
+	outline: 0;
+}
+.my-masonry-grid {
+	display: -webkit-box; /* Not needed if autoprefixing */
+	display: -ms-flexbox; /* Not needed if autoprefixing */
+	display: flex;
+	margin-left: -10px; /* gutter size offset */
+	width: auto;
+}
+.my-masonry-grid_column {
+	padding-left: 10px; /* gutter size */
+	background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+	/* change div to reference your elements you put in <Masonry> */
+	background: rgb(255, 255, 255);
+	margin-bottom: 10px;
+}
